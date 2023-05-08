@@ -139,13 +139,14 @@ apt-get dist-upgrade -y
 apt-get install nginx MariaDB-client -y
 ```
 
-Installeer daarna de Sury repository (Deze is nodig om recente php versies te kunnen installeren)
+Installeer daarna de Sury repository (Deze is nodig om recente php versies te kunnen installeren) en update de apt repositories.
 ```bash
 Voer de commando's uit op https://packages.sury.org/php/README.txt
 cd
 wget https://packages.sury.org/php/README.txt
 chmod +x README.txt
 ./README.txt
+apt update && apt-dist-upgrade
 ```
 
 Installeer de volgende php pakketten
