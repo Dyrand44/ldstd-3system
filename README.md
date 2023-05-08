@@ -220,7 +220,7 @@ Pak de debian11 machine en update deze.
 
 installeer java en test of deze werkt
 ```bash
-apt install openjdk-17-jre openjdk-17-jdk 
+apt install openjdk-17-jre-headless openjdk-17-jdk-headless
 javac -version
 java -version
 ```
