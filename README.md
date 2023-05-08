@@ -245,7 +245,7 @@ Haal het minecraft pakket op hernoem deze en voer uit, deze gaat fout. En dat is
 cd /opt/minecraft
 wget https://piston-data.mojang.com/v1/objects/8f3112a1049751cc472ec13e397eade5336ca7ae/server.jar
 mv server.jar minecraft_server.jar
-java -Xmx1024M -Xms1024M -jar server.jar nogui
+java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui
 ```
 
 Zet dan de rechten goed van alle files zodat de minecraft user de eigenaar is
