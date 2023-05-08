@@ -205,7 +205,7 @@ define('DB_COLLATE', '');
 Als laatste stap moet nginx nog weten hoe hij php moet aansturen en dat regelen wij als volgt in:
 Ga naar de map waar de config moet staan en haal de file op met wget. Herstart daarna nginx zodat de config ingeladen wordt.
 ```bash
-cd /etc/nginx/ && wget https://github.com/tucsonlabs/ansible-playbook-wordpress-nginx/blob/master/roles/nginx/templates/nginx-wp-common.conf
+cd /etc/nginx/ && wget [https://github.com/tucsonlabs/ansible-playbook-wordpress-nginx/blob/master/roles/nginx/templates/nginx-wp-common.conf](https://raw.githubusercontent.com/tucsonlabs/ansible-playbook-wordpress-nginx/master/roles/nginx/templates/nginx-wp-common.conf)
 systemctl restart nginx
 ```
 
