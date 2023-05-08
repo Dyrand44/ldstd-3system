@@ -146,7 +146,7 @@ cd
 wget https://packages.sury.org/php/README.txt
 chmod +x README.txt
 ./README.txt
-apt update && apt-dist-upgrade
+apt update && apt dist-upgrade
 ```
 
 Installeer de volgende php pakketten
