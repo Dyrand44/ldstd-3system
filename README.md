@@ -1,27 +1,5 @@
-## Opdracht:
+## Opdrachtomschrijving:
 ```
-
-sources:
-
-Ansible:
-https://github.com/tucsonlabs/ansible-playbook-wordpress-nginx/tree/master/roles
-https://github.com/devops-coop/ansible-minecraft
-
-Terraform
-https://registry.terraform.io/providers/Telmate/proxmox/latest/docs/resources/lxc
-
-Minecraft
-https://www.minecraft.net/en-us/download/server
-https://minecraft.fandom.com/wiki/Tutorials/Setting_up_a_server
-
-PHP 81
-https://packages.sury.org/php/README.txt
-
-
-## When running Ansible from qd install use following command:
-
-    ansible-playbook -i hosts.yml --user root webserver-playbook.yml
-
 Almalinux > Mariadb/Mysql database server.
 	software:
 		epel-release
@@ -46,7 +24,6 @@ debian 11 > Minecraft server
 
 Doelen:
 -	Volledig werkende wordpress installatie met remote database verbinding.
--	Key based authentication tussen laptop en servers. (ssh-keygen & ssh-copy-id)
 -	Werkende Minecraft server
 ```
 
